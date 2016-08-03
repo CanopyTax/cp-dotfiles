@@ -17,12 +17,14 @@ map ,[ ysiw]
 map ,{ ysiw}
 map ,` ysiw`
 
-" Not actually part of vim-surround but it's the same purpose
+" The rest of this is not actually part of vim-surround but it's the same purpose
 " This just allows you to do this sort of behavior in visual mode
 vmap ," c"<C-R>""<ESC>
 vmap ,' c'<C-R>"'<ESC>
+vmap ,` c`<C-R>"`<ESC>
 vmap ,( c(<C-R>")<ESC>
 vmap ,{ c{<C-R>"}<ESC>
 vmap ,[ c[<C-R>"]<ESC>
-" Make a selection a component
+" Make a selection a react-style component
+" So Comp selected ,<  becomes <Comp />
 vmap ,< c<<C-R>"/><ESC>

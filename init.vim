@@ -21,9 +21,7 @@ endif
 
 "" Indenting
 set autoindent
-" cindent is somehow better than smartindent
-" JS indentation has issues without it
-set cindent
+set smartindent
 set smarttab
 set noexpandtab
 set softtabstop=2

@@ -19,9 +19,8 @@ Plugin 'xolox/vim-misc'
 "" Languages
 " Polyglot does a lot of languages
 Plugin 'sheerun/vim-polyglot'
-Plugin 'jby/tmux.vim'
+" vim-flavored-markdown helps recognize github markdown styles
 Plugin 'jtratner/vim-flavored-markdown'
-Plugin 'mxw/vim-jsx'
 Plugin 'chrisbra/Colorizer'
 
 "" File Management
