@@ -27,7 +27,7 @@ Now you need neovim to run your vim settings
 - Run `mkdir ~/.config` (Unless you already have said directory)
 
 Now symlink a `nvim` directory in here to your `.vim` directory (this repo)
-- Run `ln -s ~/.vim ~/config/nvim`
+- Run `ln -s ~/.vim ~/.config/nvim`
 
 ###ctrl+h tmux bug
 If you're setting up NeoVim on Mac for the first time you should run the commands
