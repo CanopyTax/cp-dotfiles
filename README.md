@@ -1,12 +1,12 @@
 #Current setup for vim and tmux
 
 ##Installing
-`git clone git@github.com:CanopyTax/cp-dotfiles.git ~`
-Rename the `cp-dotfiles` directory to `.vim`
-init.vim should by symlinked to .vimrc
-`ln -s ~/.vim/init.vim ~/.vimrc`
-tmux.conf should be symlinked to ~/.tmux.conf
-`ln -s ~/.vim/tmux.conf ~/.tmux.conf`
+`git clone git@github.com:CanopyTax/cp-dotfiles.git ~`  
+Rename the `cp-dotfiles` directory to `.vim`  
+init.vim should by symlinked to .vimrc  
+`ln -s ~/.vim/init.vim ~/.vimrc`  
+tmux.conf should be symlinked to ~/.tmux.conf  
+`ln -s ~/.vim/tmux.conf ~/.tmux.conf`  
 
 ##NeoVim extras
 ###Installing neovim - (On Mac)
