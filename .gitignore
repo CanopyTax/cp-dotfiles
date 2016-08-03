@@ -1,0 +1,7 @@
+.DS_Store
+.init.vim-rplugin~
+.netrwhist
+bundle/*
+sessions
+backups
+
