@@ -11,7 +11,8 @@ tmux.conf should be symlinked to ~/.tmux.conf
 ##NeoVim extras
 ###Installing neovim - (On Mac)
 - `brew install neovim/neovim/neovim`
-- Then you'll want python3 enabled for neovim to use the autocomplete functionality
+The command `nvim` should exist now, you could alias `vim` to `nvim` if you want  
+Now you'll want python3 enabled for neovim to use the autocomplete functionality
 - If you don't have python3 run `brew install python3`
 - You should now have pip3
 - Run `pip3 install neovim`
@@ -19,6 +20,10 @@ tmux.conf should be symlinked to ~/.tmux.conf
 - If it returns `1` you're in business
 - Now run `:UpdateRemotePlugins` to enable deoplete (the autocomplete plugin)
 - If it returns `0` this page could help https://github.com/zchee/deoplete-jedi/wiki/Setting-up-Python-for-Neovim
+Now you need neovim to run your vim settings  
+- Run `mkdir ~/.config` (Unless you already have said directory)
+Now symlink a `nvim` directory in here to your `.vim` directory (this repo)
+- Run `ln -s ~/.vim ~/config/nvim`
 
 ###ctrl+h bug
 If you're setting up NeoVim on Mac for the first time you should run the commands
@@ -36,3 +41,5 @@ If you don't want NeoVim inside the vundles.vim file
 Change the line `Plugin 'Shougo/deoplete.vim'` to `Plugin Shougo/neocomplete.vim`  
 Quit vim, reload it and run `:BundleClean` and after `:PluginInstall`  
 There may be configurations with neocomplete you'll want  
+Also the `tmux.conf` file has specific neovim settings
+You'll need to change those
