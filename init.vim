@@ -109,4 +109,4 @@ let $NVIM_TUI_ENABLE_TRUE_COLOR=1
 " add your own color schemes.
 " Anything inside ~/.vim/colors is an
 " available colorscheme 
-colorscheme deep-space
+colorscheme apprentice
