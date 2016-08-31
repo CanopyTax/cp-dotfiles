@@ -9,6 +9,12 @@ init.vim should by symlinked to .vimrc
 tmux.conf should be symlinked to ~/.tmux.conf  
 - Run `ln -s ~/.vim/tmux.conf ~/.tmux.conf`  
 
+Install vundle
+- Run `git clone https://github.com/VundleVim/Vundle.Vim ~/.vim/bundle/Vundle.vim`
+
+Install Silver Searcher
+- Run `brew install the_silver_searcher`
+
 ##NeoVim
 ###Installing neovim - (On Mac)
 - `brew install neovim/neovim/neovim`
