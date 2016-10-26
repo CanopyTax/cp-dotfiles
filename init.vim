@@ -85,6 +85,9 @@ nmap <silent> // :nohlsearch<CR>
 nnoremap 0 ^
 nnoremap ^ 0
 
+"Remapping the awkward ctrl+^ to go back to previous file
+nnoremap <C-b> <C-^>
+
 " copy current filename into system clipboard - mnemonic: (c)urrent(f)ilename
 nnoremap <silent> ,cf :let @* = expand("%:~")<CR>
 
@@ -102,11 +105,10 @@ endfor
 "" Color Stuff
 " Tell NVIM to uses 24 bit colors
 " (You need a 24 bit terminal)
-let $NVIM_TUI_ENABLE_TRUE_COLOR=1
-
 " Here is where you set your colorscheme
 " This setup is configured so you manually
 " add your own color schemes.
 " Anything inside ~/.vim/colors is an
 " available colorscheme 
-colorscheme apprentice
+set background=dark
+colorscheme onedark
