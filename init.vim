@@ -110,5 +110,14 @@ endfor
 " add your own color schemes.
 " Anything inside ~/.vim/colors is an
 " available colorscheme 
+colorscheme peaksea
 set background=dark
-colorscheme onedark
+
+nnoremap <C-n> :call FlashCurrentLine()<CR>
+
+function! FlashCurrentLine()
+	set cul
+	redraw
+	sleep 300m
+	set nocul
+endfunction

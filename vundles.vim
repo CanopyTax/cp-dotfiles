@@ -54,6 +54,7 @@ Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'gregsexton/gitv'
 Plugin 'tpope/vim-git'
 Plugin 'mhinz/vim-signify'
+Plugin 'tpope/vim-fugitive'
 "
 
 call vundle#end()
