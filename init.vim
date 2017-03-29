@@ -113,7 +113,7 @@ endfor
 colorscheme peaksea
 set background=dark
 
-nnoremap <C-n> :call FlashCurrentLine()<CR>
+nnoremap <C-p> :call FlashCurrentLine()<CR>
 
 function! FlashCurrentLine()
 	set cul
