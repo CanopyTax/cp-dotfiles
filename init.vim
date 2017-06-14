@@ -113,11 +113,5 @@ endfor
 colorscheme peaksea
 set background=dark
 
-nnoremap <C-n> :call FlashCurrentLine()<CR>
-
-function! FlashCurrentLine()
-	set cul
-	redraw
-	sleep 300m
-	set nocul
-endfunction
+"" Configure vim-move plugin. See https://github.com/matze/vim-move
+let g:move_key_modifier = 'C'
