@@ -103,15 +103,22 @@ for fpath in split(globpath(vimsettings, '*.vim'), '\n')
 endfor
 
 "" Color Stuff
-" Tell NVIM to uses 24 bit colors
-" (You need a 24 bit terminal)
 " Here is where you set your colorscheme
 " This setup is configured so you manually
 " add your own color schemes.
 " Anything inside ~/.vim/colors is an
 " available colorscheme 
-colorscheme peaksea
+colorscheme spring-night
 set background=dark
 
 "" Configure vim-move plugin. See https://github.com/matze/vim-move
 let g:move_key_modifier = 'C'
+
+nnoremap <C-p> :call FlashCurrentLine()<CR>
+
+function! FlashCurrentLine()
+	set cul
+	redraw
+	sleep 300m
+	set nocul
+endfunction

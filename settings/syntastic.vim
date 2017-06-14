@@ -10,3 +10,4 @@ let g:syntastic_quiet_messages = {'level': 'warnings'}
 " Default to eslint. If you need jshint, you can override this in
 " ~/.vimrc.after
 let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_html_tidy_ignore_errors = ['is not recognized!']

@@ -23,6 +23,7 @@ Plugin 'sheerun/vim-polyglot'
 Plugin 'jtratner/vim-flavored-markdown'
 Plugin 'chrisbra/Colorizer'
 Plugin 'scrooloose/syntastic.git'
+Plugin 'sbdchd/neoformat'
 
 "" File Management
 Plugin 'scrooloose/nerdtree'
