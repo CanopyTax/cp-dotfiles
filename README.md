@@ -15,6 +15,14 @@ Install vundle
 Install Silver Searcher
 - Run `brew install the_silver_searcher`
 
+Create a custom-config.vim file
+- This file is not tracked by git, it is where you should put all custom stuff. This helps avoid merge conflicts when doing a git pull.
+
+Install a vim colorscheme
+- These are just files in ~/.vim/colors directory
+- Add `colorscheme peaksea` (or whichever one you want) into custom-config.vim
+- Add `set background=dark`
+
 ##NeoVim
 ###Installing neovim - (On Mac)
 - `brew install neovim/neovim/neovim`
