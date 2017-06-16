@@ -117,7 +117,6 @@ function! FlashCurrentLine()
 	set nocul
 endfunction
 
-
-if filereadable("custom-config.vim")
-	source custom-config.vim
+if filereadable(expand("~/.vim/custom-config.vim"))
+	source ~/.vim/custom-config.vim
 endif
