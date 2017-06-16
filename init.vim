@@ -103,7 +103,7 @@ for fpath in split(globpath(vimsettings, '*.vim'), '\n')
 endfor
 
 "" Configure vim-move plugin. See https://github.com/matze/vim-move
-let g:move_key_modifier = 'C'
+let g:move_key_modifier = 'A'
 
 nnoremap <C-p> :call FlashCurrentLine()<CR>
 
