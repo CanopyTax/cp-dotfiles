@@ -102,6 +102,9 @@ for fpath in split(globpath(vimsettings, '*.vim'), '\n')
 	exe 'source' fpath
 endfor
 
+colorscheme peaksea
+set background=dark
+
 "" Configure vim-move plugin. See https://github.com/matze/vim-move
 let g:move_key_modifier = 'A'
 
