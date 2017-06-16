@@ -23,6 +23,10 @@ Install a vim colorscheme
 - Add `colorscheme peaksea` (or whichever one you want) into custom-config.vim
 - Add `set background=dark`
 
+Configure the mac terminal (for vim-move to work)
+- In Terminal: Profiles -> Keyboard -> "Use Option as Meta key"
+- In iTerm: Profiles -> Keys -> "Left option key acts as" +Esc
+
 ##NeoVim
 ###Installing neovim - (On Mac)
 - `brew install neovim/neovim/neovim`

@@ -50,6 +50,7 @@ Plugin 'tpope/vim-surround'
 Plugin 'vim-scripts/camelcasemotion.git'
 Plugin 'vim-scripts/matchit.zip'
 Plugin 'christoomey/vim-tmux-navigator'
+Plugin 'matze/vim-move'
 
 "" Git
 Plugin 'gregsexton/gitv'
