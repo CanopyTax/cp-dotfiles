@@ -108,7 +108,7 @@ endfor
 " add your own color schemes.
 " Anything inside ~/.vim/colors is an
 " available colorscheme 
-colorscheme spring-night
+colorscheme peaksea
 set background=dark
 
 nnoremap <C-p> :call FlashCurrentLine()<CR>
@@ -119,3 +119,8 @@ function! FlashCurrentLine()
 	sleep 300m
 	set nocul
 endfunction
+
+
+if filereadable("custom-config.vim")
+	source custom-config.vim
+endif
