@@ -5,3 +5,4 @@ bundle/*
 sessions
 backups
 colors/*
+custom-config.vim
