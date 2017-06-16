@@ -102,15 +102,6 @@ for fpath in split(globpath(vimsettings, '*.vim'), '\n')
 	exe 'source' fpath
 endfor
 
-"" Color Stuff
-" Here is where you set your colorscheme
-" This setup is configured so you manually
-" add your own color schemes.
-" Anything inside ~/.vim/colors is an
-" available colorscheme 
-colorscheme peaksea
-set background=dark
-
 nnoremap <C-p> :call FlashCurrentLine()<CR>
 
 function! FlashCurrentLine()
