@@ -35,6 +35,7 @@ Now you'll want python3 enabled for neovim to use the autocomplete functionality
 - Run `pip3 install neovim`
 - Run the command `:echo has("python3")` inside of neovim
 - If it returns `1` you're in business
+- Run `:PluginInstall`
 - Now run `:UpdateRemotePlugins` to enable deoplete (the autocomplete plugin)
 - If it returns `0` this page could help https://github.com/zchee/deoplete-jedi/wiki/Setting-up-Python-for-Neovim
 
@@ -52,3 +53,6 @@ tic $TERM.ti
 ```
 As per https://github.com/neovim/neovim/issues/2048#issuecomment-78045837  
 Otherwise `ctrl + h` won't switch between panes in tmux
+
+##Install font
+I'd suggest FiraCode https://github.com/tonsky/FiraCode as a starting point
