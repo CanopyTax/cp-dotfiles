@@ -1,6 +1,6 @@
-#Current setup for vim and tmux
+# Current setup for vim and tmux
 
-##Installing
+## Installing
 - Run `git clone git@github.com:CanopyTax/cp-dotfiles.git ~/.vim`  
 
 init.vim should by symlinked to .vimrc  
@@ -24,8 +24,8 @@ Configure the mac terminal (for vim-move to work)
 - In Terminal: Profiles -> Keyboard -> "Use Option as Meta key"
 - In iTerm: Profiles -> Keys -> "Left option key acts as" +Esc
 
-##NeoVim
-###Installing neovim - (On Mac)
+## NeoVim
+### Installing neovim - (On Mac)
 - `brew install neovim/neovim/neovim`
 
 The command `nvim` should exist now, you could alias `vim` to `nvim` if you want  
@@ -45,7 +45,7 @@ Now you need neovim to run your vim settings
 Now symlink a `nvim` directory in here to your `.vim` directory (this repo)
 - Run `ln -s ~/.vim ~/.config/nvim`
 
-###ctrl+h tmux bug
+### ctrl+h tmux bug
 If you're setting up NeoVim on Mac for the first time you should run the commands
 ```
 infocmp $TERM | sed 's/kbs=^[hH]/kbs=\\177/' > $TERM.ti
@@ -54,5 +54,5 @@ tic $TERM.ti
 As per https://github.com/neovim/neovim/issues/2048#issuecomment-78045837  
 Otherwise `ctrl + h` won't switch between panes in tmux
 
-##Install font
+## Install font
 I'd suggest FiraCode https://github.com/tonsky/FiraCode as a starting point
