@@ -15,6 +15,17 @@ Install vundle
 Install Silver Searcher
 - Run `brew install the_silver_searcher`
 
+Install fzf for fuzzy searching
+- `brew install fzf`
+- You'll see a helpful hint at the end something like
+```
+To install useful keybindings and fuzzy completion:
+  /usr/local/opt/fzf/install
+```
+- Run that and agree to the three questions
+- Finally add this line to your shell config `export FZF_DEFAULT_COMMAND='ag -g ""'`
+- That line makes it so FZF will respect your .gitignore when searching
+
 Create a custom-config.vim file
 - This file is not tracked by git, it is where you should put all custom stuff. This helps avoid merge conflicts when doing a git pull.
 

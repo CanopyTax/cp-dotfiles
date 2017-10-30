@@ -27,7 +27,7 @@ Plugin 'sbdchd/neoformat'
 
 "" File Management
 Plugin 'scrooloose/nerdtree'
-Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'junegunn/fzf.vim'
 Plugin 'mileszs/ack.vim'
 Plugin 'vim-scripts/IndexedSearch'
 Plugin 'nelstrom/vim-visual-star-search'
