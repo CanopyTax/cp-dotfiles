@@ -11,6 +11,7 @@ let mapleader=","
 set noswapfile
 set nobackup
 set nowb
+set clipboard=unnamed
 
 " Keeps undo history across sessions by storing in a file
 if has('persistent_undo') && !isdirectory(expand('~').'/.vim/backups')
