@@ -24,7 +24,7 @@ endif
 set autoindent
 set smartindent
 set smarttab
-set noexpandtab
+set expandtab
 set softtabstop=2
 set tabstop=2
 set shiftwidth=2
